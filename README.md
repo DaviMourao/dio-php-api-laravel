@@ -42,3 +42,32 @@ Abaixo estão as rotas disponíveis e testadas na aplicação:
 2. Na raiz do projeto, instale as dependências usando o Composer:
    ```bash
    composer install
+
+```
+
+3. Crie um banco de dados MySQL e configure as credenciais no arquivo `.env`.
+4. Execute as migrations para criar as tabelas necessárias:
+```bash
+php artisan migrate
+
+```
+
+
+5. Inicie o servidor embutido do Laravel:
+```bash
+php artisan serve
+
+```
+
+
+6. A API estará disponível em `http://127.0.0.1:8000/api`.
+
+---
+
+*Desenvolvido por Davi como parte do aprendizado em desenvolvimento Back-end.*
+
+```
+
+
+
+```
